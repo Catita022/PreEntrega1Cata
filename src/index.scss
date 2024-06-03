@@ -1,0 +1,33 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$colorFondo:rgb(192, 194, 170);
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(5, 1, 1, 0.983);
+  background-color: $colorFondo;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.mi-titulo{
+  text-align: center;
+  padding: 30px;
+  font-size:46px;
+  text-decoration: solid;
+  text-transform: capitalize;
+  color:azure;
+  font-weight: bold;
+  text-shadow: 4px 4px 2px rgba(182,138,138,0.6);
+}
+
