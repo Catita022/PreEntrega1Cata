@@ -1,0 +1,49 @@
+
+
+{
+    "productos": [
+      {
+        "nombre": "Camiseta",
+        "precio": 20,
+        "imagen": "https://fancolor.es/wp-content/uploads/2016/09/4197-003-P-scaled.jpg"
+      },
+      {
+        "nombre": "Zapatillas",
+        "precio": 80,
+        "imagen": "https://falabella.scene7.com/is/image/Falabella/50106080_1?wid=800&hei=800&qlt=70"
+      },
+      {
+        "nombre": "Pantalones",
+        "precio": 50,
+        "imagen": "https://img.bekiamoda.com/galeria/22000/22846_pantalon-vaquero-claro-coleccion-verano-2012-lois.jpg"
+      },
+      {
+        "nombre": "Gorra",
+        "precio": 15,
+        "imagen": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/ed753063-659d-4e03-add8-a42dd754bae9.1379483ec27256cf5c1b61a9a1e88508.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff"
+      },
+      {
+        "nombre": "Reloj",
+        "precio": 100,
+        "imagen": "https://belcorpmexico.vtexassets.com/arquivos/ids/904082/210103153_fotofondoblanco.jpg?v=638186634864430000"
+      },
+      {
+        "nombre": "Bolso",
+        "precio": 30,
+        "imagen": "https://womensecret.com/dw/image/v2/AAYL_PRD/on/demandware.static/-/Sites-gc-ws-master-catalog/default/dw76b0088b/images/hi-res/P_306425501FM.jpg?sw=2000&sh=2000&sm=fit"
+      },
+      {
+        "nombre": "Bufanda",
+        "precio": 10,
+        "imagen": "https://th.bing.com/th/id/OIP.-P6SAz6ho4b77I6XRH_XRQHaHa?rs=1&pid=ImgDetMain"
+      },
+      {
+        "nombre": "Gafas de sol",
+        "precio": 40,
+        "imagen": "https://www.robertomartin.com/fotos-gafas/2016/12/RO2057M.jpg"
+      }
+    ]
+    
+   
+  }
+  
