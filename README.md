@@ -23,11 +23,8 @@ curso de react . Es sobre una tienda de ropa y zapateria
 # Demo
 
 
-# Build/Deploy
-aqui ira mi pagina subida en la web
-imagenes del stio 
 
-[soy un link](https://google.com)
+[https://baul-maravillas.netlify.app] (demo de la pagina)
 
 
 
