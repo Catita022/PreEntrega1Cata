@@ -24,7 +24,7 @@ curso de react . Es sobre una tienda de ropa y zapateria
 
 
 
-[https://baul-maravillas.netlify.app] (demo de la pagina)
+[ https://baul-maravillas.netlify.app ] (demo de la pagina)
 
 
 
