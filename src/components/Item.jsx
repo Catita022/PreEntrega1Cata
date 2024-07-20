@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 
 function Item({ item }) {
 
-
+    
     return (
         <>
             
@@ -23,7 +23,7 @@ function Item({ item }) {
                                 <img src={producto.imagen} alt={producto.nombre} className="aspect-square object-contain" />
                                 <h2 className="font-bold truncate">{producto.nombre}</h2>
                                 <p className="text-gray-400">$ {producto.precio}</p>
-                                <Link to={"/item/1"}>
+                                <Link to={'/item/'+producto._id}>
                                     <button className="bg-blue-300 rounded-sm text-black p-2  ">detalles</button>
                                 </Link>
 

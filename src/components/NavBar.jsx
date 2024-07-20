@@ -1,21 +1,21 @@
 import CartWidget from "./CartWidget.jsx";
-import {Link, NavLink} from "react-router-dom"
+import {NavLink}  from "react-router-dom";
+
 
 function NavBar(){
-    // const navClick=()=>{
-    //     console.log('click');
-    // }
+   
     return(
         <>
-            <header className="bg-sky-200">
+            <header className="bg-sky-200 border-collapse">
                 <nav>
                     <ul className="flex flex-row">
+                    
+                        <li className="p-5"><NavLink to={"/"}><img className="w-7 h-7" src="/home.png" alt="img-home"></img></NavLink></li>
+                        <li className="p-5"><NavLink  to={"/home/productos"}>productos</NavLink></li>
+                        <li className="p-5"><NavLink  to={"categoria/ropa"}>ropa</NavLink></li> 
+                        <li className="p-5"><NavLink  to={"categoria/calzados"}>zapatillas</NavLink></li>
                         
-                        <li className="p-5"><NavLink to={"/"}>home</NavLink></li>
-                        <li className="p-5"><NavLink to={"/productos"}>productos</NavLink></li>
-                        <li className="p-5"><NavLink to={"/categoria/remeras"}>remeras</NavLink></li> 
-                        <li className="p-5"><NavLink to={"/categoria/zapatillas"}>zapatillas</NavLink></li>
-                        {/* <li className="p-5"><NavLink to={"/carrito"}>carrito</NavLink></li> */}
+                        
                         <CartWidget/>
                 
                     </ul>
@@ -25,5 +25,6 @@ function NavBar(){
         </>
     )
 }
+
 
 export default NavBar;

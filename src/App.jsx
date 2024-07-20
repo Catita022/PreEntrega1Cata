@@ -1,22 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
 import NavBar from './components/NavBar.jsx'
-import ItemListContainer from "../src/components/ItemListContainer.jsx"
-import { BrowserRouter} from "react-router-dom"
+import Footer from './components/Footer.jsx'
+import ItemListContainer from './components/ItemListContainer.jsx'
+import { BrowserRouter } from "react-router-dom"
+import './firebaseConfig.js'
+import CartProvaider from './components/CartProvaider.jsx'
+
+
+
 
 
 function App() {
+  
+
   return (
     <BrowserRouter>
-      
-      <NavBar />
-      <ItemListContainer greeting="el baúl de las mil maravillas" />
-      
+
+      <CartProvaider>
+
+        <NavBar />
+        <ItemListContainer greeting="el baúl de las mil maravillas" />
+        <Footer />
+
+      </CartProvaider>
     </BrowserRouter>
   )
 
-  
+
 }
 
 export default App

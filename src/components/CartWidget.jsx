@@ -1,12 +1,13 @@
 
 import { NavLink } from "react-router-dom";
-
+import {miContexto} from "./CartProvaider";
+import { useContext } from "react";
 function CartWidget(){
+    const cantProd = useContext(miContexto)
     
-    const cantProd = 6;
     return (
         <>
-        <li className=""><NavLink to={"/carrito"}><span>{cantProd}</span><img className="w-7 h-7" src="/carro.png" alt="img-carro"></img></NavLink></li>
+        <li className=""><NavLink to={"/carrito"}><span>{cantProd.cant}</span><img className="w-7 h-7" src="/carro.png" alt="img-carro"></img></NavLink></li>
         
         </>
     )

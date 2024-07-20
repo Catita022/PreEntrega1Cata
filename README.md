@@ -1,8 +1,34 @@
-# React + Vite
+# Ecommerce Curso Ract
+Este es un ecommerce que realicé para el proyecto final del
+curso de react . Es sobre una tienda de ropa y zapateria
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Stack usado
+* firebase: 10.12.3
+* lucide-react: 0.395.0
+* react: 18.2.0
+* react-dom: 18.2.0
+* react-router-dom: 6.24.0
+* sass: 1.77.4
+* vite: 5.2.0
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Uso/Instalación
+* Clone Repositorio
+* ``` https://github.com/Catita022/PreEntrega1Cata ```
+* Instalación De Depensencias 
+* ``` npm install ```
+* Inicie El Servidor De Desarrollo
+* ``` npm start ```
+
+# Demo
+
+
+# Build/Deploy
+aqui ira mi pagina subida en la web
+imagenes del stio 
+
+[soy un link](https://google.com)
+
+
+
+ 

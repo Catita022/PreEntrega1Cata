@@ -1,49 +1,143 @@
 
 
 {
+  
     "productos": [
       {
+        "id":1,
         "nombre": "Camiseta",
+        "categoria":"ropa",
         "precio": 20,
         "imagen": "https://fancolor.es/wp-content/uploads/2016/09/4197-003-P-scaled.jpg"
       },
       {
+        "id":2,
         "nombre": "Zapatillas",
+        "categoria":"calzados",
         "precio": 80,
         "imagen": "https://falabella.scene7.com/is/image/Falabella/50106080_1?wid=800&hei=800&qlt=70"
       },
       {
-        "nombre": "Pantalones",
+        "id":3,
+        "nombre": "Pantalón vaquero",
+        "categoria":"ropa",
         "precio": 50,
         "imagen": "https://img.bekiamoda.com/galeria/22000/22846_pantalon-vaquero-claro-coleccion-verano-2012-lois.jpg"
       },
       {
-        "nombre": "Gorra",
+        "id":4,
+        "nombre": "Plumo Ltd",
+        "categoria":"ropa",
         "precio": 15,
-        "imagen": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/ed753063-659d-4e03-add8-a42dd754bae9.1379483ec27256cf5c1b61a9a1e88508.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff"
+        "imagen": "https://plumo.sirv.com/12967/DAY03_Chino_Pants_UB038_003_Edited-Web__89222.jpg"
       },
       {
-        "nombre": "Reloj",
+        "id":5,
+        "nombre": "Pantalón Cargo",
+        "categoria":"ropa",
         "precio": 100,
-        "imagen": "https://belcorpmexico.vtexassets.com/arquivos/ids/904082/210103153_fotofondoblanco.jpg?v=638186634864430000"
+        "imagen": "https://th.bing.com/th/id/OIP.7heGb5JGQD_T5TGLneVFDgHaLH?rs=1&pid=ImgDetMain"
       },
       {
-        "nombre": "Bolso",
+        "id":6,
+        "nombre": "Pantalón Jogger",
+        "categoria":"ropa",
         "precio": 30,
-        "imagen": "https://womensecret.com/dw/image/v2/AAYL_PRD/on/demandware.static/-/Sites-gc-ws-master-catalog/default/dw76b0088b/images/hi-res/P_306425501FM.jpg?sw=2000&sh=2000&sm=fit"
+        "imagen": "https://ozonee-shop.es/spa_pl_Pantalon-jogger-de-hombre-camel-OZONEE-O-11106-40304_2.png"
       },
       {
+        "id":7,
         "nombre": "Bufanda",
+        "categoria":"ropa",
         "precio": 10,
         "imagen": "https://th.bing.com/th/id/OIP.-P6SAz6ho4b77I6XRH_XRQHaHa?rs=1&pid=ImgDetMain"
       },
       {
-        "nombre": "Gafas de sol",
+        "id":8,
+        "nombre": "American Clasic",
+        "categoria":"ropa",
         "precio": 40,
-        "imagen": "https://www.robertomartin.com/fotos-gafas/2016/12/RO2057M.jpg"
+        "imagen": "https://cdn.shopify.com/s/files/1/0123/5065/2473/files/BW14150.827CKK_DESERT_TWILL_GURKHA_PANT_CADET_KHAKI_700x.jpg?v=1710809594"
+      },
+      {
+        "id":9,
+        "nombre": "Remera básica",
+        "categoria":"ropa",
+        "precio": 15,
+        "imagen": "https://fancolor.es/wp-content/uploads/2016/09/4197-003-P-scaled.jpg"
+      },
+      {
+        "id":10,
+        "nombre": "Remera estampada",
+        "categoria":"ropa",
+        "precio": 20,
+        "imagen": "https://estampadosmendoza.com.ar/wp-content/uploads/2017/08/Remera-Sublimada-Full.png"
+      },
+      {
+        "id":11,
+        "nombre": "Remera de algodón",
+        "categoria":"ropa",
+        "precio": 18,
+        "imagen": "https://www.segutecnica.com/thumb/000000000000000028784remera-azul-segutecnica_800x800.png"
+      },
+      {
+        "id":12,
+        "nombre": "Pantalón vaquero negro",
+        "categoria":"ropa",
+        "precio": 189,
+        "imagen": "https://www.bolf.es/spa_pl_Pantalon-vaquero-de-corte-regular-para-hombre-color-negroBolf-K8862-82406_8.jpg"
+      },
+      {
+        "id":13,
+        "nombre": "zapatillas verano",
+        "categoria":"calzados",
+        "precio": 190,
+        "imagen": "https://images-na.ssl-images-amazon.com/images/I/71FjhxENZQL._AC_UL1188_.jpg"
+      },
+      {
+        "id":14,
+        "nombre": "zapatillas invierno",
+        "categoria":"calzados",
+        "precio": 13,
+        "imagen": "https://cdn.shopify.com/s/files/1/0408/9909/products/Moncler-Trailgrip-GTX-High-Top---Beige-H209A4M00200M2437-P19-11-29-22-Feature-JM-5.jpg?v=1669762375"
+      },
+      {
+        "id":15,
+        "nombre": "zapatillas invierno",
+        "categoria":"calzados",
+        "precio": 39,
+        "imagen": "https://cdn.shopify.com/s/files/1/0408/9909/products/Moncler-Trailgrip-GTX-High-Top---Beige-H209A4M00200M2437-P19-11-29-22-Feature-JM-5.jpg?v=1669762375"
+      },
+      {
+        "id":16,
+        "nombre": "zapatillas deporte",
+        "categoria":"calzados",
+        "precio": 564,
+        "imagen": "https://th.bing.com/th/id/R.81311c75fd4c36ee41695a95285b4240?rik=eS795Sf9iE%2fAzg&riu=http%3a%2f%2fsoyhombrealfa.com%2fwp-content%2fuploads%2f2018%2f01%2fLos-mejores-calzados-para-hacer-deporte....png&ehk=Dosr4epwIh01PqdHwC59rRdxhT00kPg58nLcKShf38w%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "id":17,
+        "nombre": "Bufanda mujer",
+        "categoria":"ropa",
+        "precio": 54,
+        "imagen": "https://www.fashiongen.fr/49748-thickbox_default/bufanda-de-lana-mujer-celia.jpg"
+      },
+      {
+        "id":18,
+        "nombre": "Bufanda moderna",
+        "categoria":"ropa",
+        "precio": 984,
+        "imagen": "https://cdn.mos.cms.futurecdn.net/wVE573oy3Nser2UTtidGX4-415-80.jpg"
       }
+
     ]
     
-   
+    
+    
+    
   }
+  
+    
+   
+
   

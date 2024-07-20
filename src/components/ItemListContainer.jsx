@@ -1,9 +1,12 @@
-import { Routes, Route } from "react-router-dom"
-import ItemDetailCointeiner from "./ItemDetailContainer.jsx"
+
+import {Route, Routes} from "react-router-dom";
+import Banner from "./Banner.jsx";
+import ItemDetailCointeiner from "./ItemDetailContainer.jsx";
 import ItemList from './ItemList.jsx'
+import Carrito from "./Carrito.jsx";
 
 function ItemListContainer(props) {
-
+    
     return (
         <>
             <main>
@@ -11,19 +14,20 @@ function ItemListContainer(props) {
                     <h1 className="mi-titulo">{props.greeting}</h1>
 
                 </section>
+                
                 <Routes>
-                    <Route path="/" element={<p></p>} />
-                    <Route path="/productos" element={<ItemListContainer />} />
-                    <Route path="/categoria/:id" element={<ItemListContainer />} />
-                    <Route path="/carrito" element={<p>carrito</p>} />
-                    <Route path="item/:id" element={<ItemDetailCointeiner/>}/>
+                    <Route path="/" element={<Banner/>} />
+                    <Route path="/home/:id" element={<ItemListContainer/>} />
+                    <Route path="/categoria/:id/*" element={<ItemListContainer/>} />
+                    <Route path="/carrito" element={<Carrito/>} />
+                    <Route path="/item/:id" element={<ItemDetailCointeiner/>}/>
                 </Routes>
 
-                <ItemList />
+               
 
             </main>
 
-
+            <ItemList />
         </>
     )
 }
